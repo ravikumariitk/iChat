@@ -1,4 +1,4 @@
-const socket = io('http://localhost:3000', { transports: ['websocket', 'polling', 'flashsocket'] });
+const socket = io('https://ichat4.onrender.com', { transports: ['websocket', 'polling', 'flashsocket'] });
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('message_input');
 const attachment = document.getElementById('attachment');
